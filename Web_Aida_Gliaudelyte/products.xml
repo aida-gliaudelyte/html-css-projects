@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKS>
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>Blue Moon</NAME>
+        <AUTHOR>Lee Child</AUTHOR>
+		<PRICE>14.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>No Mercy</NAME>
+        <AUTHOR>Martina Cole</AUTHOR>
+        <PRICE>10.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>The Second Sleep</NAME>
+        <AUTHOR>Robert Harris</AUTHOR>
+        <PRICE>17.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>The Hunting Party</NAME>
+        <AUTHOR>Lucy Foley</AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>My Sister, the Serial Killer</NAME>
+        <AUTHOR>Oyinkan Braithwaite</AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>	
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>Blood and Sugar</NAME>
+        <AUTHOR>Laura Shepherd-Robinson</AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>Critical Incidents</NAME>
+        <AUTHOR>Lucie Whitehouse</AUTHOR>
+        <PRICE>5.99</PRICE>
+    </BOOK>	
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>Big Sky</NAME>
+        <AUTHOR>Kate Atkinson</AUTHOR>
+        <PRICE>11.99</PRICE>
+    </BOOK>	
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>Knife</NAME>
+        <AUTHOR>Jo Nesbo</AUTHOR>
+        <PRICE>8.99</PRICE>
+    </BOOK>	
+    <BOOK>
+        <GENRE>Crime</GENRE>
+        <NAME>The Other People</NAME>
+        <AUTHOR>C. J. Tudor</AUTHOR>
+        <PRICE>10.99</PRICE>
+    </BOOK>
+    
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>The Rise of Magicks</NAME>
+        <AUTHOR>Nora Roberts</AUTHOR>
+        <PRICE>20.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>Girl, Woman, Other</NAME>
+        <AUTHOR>Bernardine Evaristo</AUTHOR>
+        <PRICE>8.49</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>Normal People </NAME>
+        <AUTHOR>Sally Rooney</AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>Before the Coffee Gets Cold</NAME>
+        <AUTHOR>Toshikazu Kawaguchi</AUTHOR>
+        <PRICE>9.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>The Beekeeper of Aleppo</NAME>
+        <AUTHOR>Christy Lefteri</AUTHOR>
+        <PRICE>12.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>American Dirt</NAME>
+        <AUTHOR>Jeanine Cummins</AUTHOR>
+        <PRICE>12.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>The Book Thief</NAME>
+        <AUTHOR>Markus Zusak</AUTHOR>
+        <PRICE>8.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>The Winter Soldier</NAME>
+        <AUTHOR>Daniel Mason</AUTHOR>
+        <PRICE>7.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>Delta of Venus</NAME>
+        <AUTHOR>Anais Nin</AUTHOR>
+        <PRICE>9.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Fiction</GENRE>
+        <NAME>Adele</NAME>
+        <AUTHOR>Leila Slimani</AUTHOR>
+        <PRICE>13.99</PRICE>
+    </BOOK>
+    
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>The Last Wish</NAME>
+        <AUTHOR>Andrzej Sapkowski</AUTHOR>
+        <PRICE>14.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>The Starless Sea</NAME>
+        <AUTHOR>Erin Morgenstern</AUTHOR>
+        <PRICE>8.49</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>A Little Hatred</NAME>
+        <AUTHOR>Joe Abercrombie</AUTHOR>
+        <PRICE>9.49</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>The Handmaid's Tale</NAME>
+        <AUTHOR>Margaret Atwood</AUTHOR>
+        <PRICE>10.49</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>Pan's Labyrinth</NAME>
+        <AUTHOR>Guillermo del Toro</AUTHOR>
+        <PRICE>16.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>The Priory of the Orange Tree </NAME>
+        <AUTHOR>Samantha Shannon</AUTHOR>
+        <PRICE>15.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>The Ocean at the End of the Lane</NAME>
+        <AUTHOR>Neil Gaiman</AUTHOR>
+        <PRICE>10.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>The Hobbit</NAME>
+        <AUTHOR>J. R. R. Tolkien</AUTHOR>
+        <PRICE>14.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>Beren and Luthien</NAME>
+        <AUTHOR>J. R. R. Tolkien</AUTHOR>
+        <PRICE>8.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Sci-Fi and Fantasy</GENRE>
+        <NAME>The Mermaid </NAME>
+        <AUTHOR>Christina Henry</AUTHOR>
+        <PRICE>7.99</PRICE>
+    </BOOK>
+    
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Veg</NAME>
+        <AUTHOR>Jamie Oliver</AUTHOR>
+        <PRICE>13.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Meat-Free One Pound Meals</NAME>
+        <AUTHOR>Miguel Barclay</AUTHOR>
+        <PRICE>12.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Cheeky Treats</NAME>
+        <AUTHOR>Liam Charles</AUTHOR>
+        <PRICE>22.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Quick and Delicious</NAME>
+        <AUTHOR>Gordon Ramsay</AUTHOR>
+        <PRICE>25.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Marcus Everyday</NAME>
+        <AUTHOR>Marcus Wareing</AUTHOR>
+        <PRICE>20.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>World Atlas of Wine 8th Edition</NAME>
+        <AUTHOR>Hugh Johnson</AUTHOR>
+        <PRICE>50.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>The Little Book of Craft Beer</NAME>
+        <AUTHOR>Mellisa Cole</AUTHOR>
+        <PRICE>10.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Sip: 100 gin cocktails</NAME>
+        <AUTHOR>Sipsmith</AUTHOR>
+        <PRICE>13.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Bond Cocktails</NAME>
+        <AUTHOR>Katherine Bebo</AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Food and Drink</GENRE>
+        <NAME>Gin Made Me Do It</NAME>
+        <AUTHOR>Jassy Davis</AUTHOR>
+        <PRICE>9.99</PRICE>
+    </BOOK>
+    
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>Reasons to Stay Alive</NAME>
+        <AUTHOR>Matt Haig</AUTHOR>
+        <PRICE>7.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>Not a Diet Book</NAME>
+        <AUTHOR>James Smith</AUTHOR>
+        <PRICE>16.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>Surrounded by Idiots</NAME>
+        <AUTHOR>Thomas Erikson</AUTHOR>
+        <PRICE>7.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>How to Treat People</NAME>
+        <AUTHOR>Molly Case</AUTHOR>
+        <PRICE>7.49</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>Once More We Saw Stars</NAME>
+        <AUTHOR>Jayson Greene</AUTHOR>
+        <PRICE>8.49</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>Everybody Died, So I Got a Dog</NAME>
+        <AUTHOR>Emily Dean</AUTHOR>
+        <PRICE>8.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>The Ultimate Body Plan</NAME>
+        <AUTHOR>Gemma Atkinson</AUTHOR>
+        <PRICE>16.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>Secrets of the Human Body</NAME>
+        <AUTHOR>Dr. Chris van Tulleken and Others</AUTHOR>
+        <PRICE>9.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>The Stress Solution</NAME>
+        <AUTHOR>Dr Rangan Chatterjee</AUTHOR>
+        <PRICE>16.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Health and Lifestyle</GENRE>
+        <NAME>The School of Life</NAME>
+        <AUTHOR>The School of Life</AUTHOR>
+        <PRICE>16.99</PRICE>
+    </BOOK>
+    
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>The Boy, the Mole, the Fox and the Horse</NAME>
+        <AUTHOR>Charlie Mackesy</AUTHOR>
+        <PRICE>14.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>1001 Paintings </NAME>
+        <AUTHOR>Mark Irving</AUTHOR>
+        <PRICE>10.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>The Secret Lives of Colour</NAME>
+        <AUTHOR>Kassia St. Clair</AUTHOR>
+        <PRICE>12.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>Paris Street Style</NAME>
+        <AUTHOR>Isabelle Thomas</AUTHOR>
+        <PRICE>15.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>Take Great Photographs</NAME>
+        <AUTHOR>Henry Carroll</AUTHOR>
+        <PRICE>12.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>The Lives of Lucian Freud</NAME>
+        <AUTHOR>William Feaver</AUTHOR>
+        <PRICE>35.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>The Pursuit of Art</NAME>
+        <AUTHOR>Martin Gayford</AUTHOR>
+        <PRICE>16.95</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>Self-Portrait</NAME>
+        <AUTHOR>Celia Paul</AUTHOR>
+        <PRICE>20.00</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>Great Women Artists</NAME>
+        <AUTHOR>Phaidon Editors</AUTHOR>
+        <PRICE>39.95</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Art,Fashion and Photography</GENRE>
+        <NAME>The Golden Thread</NAME>
+        <AUTHOR>Kassia St Clair </AUTHOR>
+        <PRICE>8.99</PRICE>
+    </BOOK>
+    
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>Greta and the Giants</NAME>
+        <AUTHOR>Zoe Tucker</AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The Dinky Donkey</NAME>
+        <AUTHOR>Craig Smith</AUTHOR>
+        <PRICE>5.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The Snow Dragon</NAME>
+        <AUTHOR>Abi Elphinstone</AUTHOR>
+        <PRICE>7.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The Creature Choir</NAME>
+        <AUTHOR>David Walliams</AUTHOR>
+        <PRICE>10.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The Christma saurus and the Winter Witch</NAME>
+        <AUTHOR>Tom Fletcher</AUTHOR>
+        <PRICE>10.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The Worst Witch - The Worst Witch</NAME>
+        <AUTHOR>Jill Murphy</AUTHOR>
+        <PRICE>5.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The International Yeti Collective</NAME>
+        <AUTHOR>Paul Mason</AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The Star Outside my Window</NAME>
+        <AUTHOR>Onjali Q. Rauf</AUTHOR>
+        <PRICE>5.49</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>Frostheart</NAME>
+        <AUTHOR>Jamie Littler</AUTHOR>
+        <PRICE>5.99</PRICE>
+    </BOOK>
+    <BOOK>
+        <GENRE>Children's books</GENRE>
+        <NAME>The Boy At the Back of the Class</NAME>
+        <AUTHOR>Onjali Q. Rauf </AUTHOR>
+        <PRICE>6.99</PRICE>
+    </BOOK>
+</BOOKS>

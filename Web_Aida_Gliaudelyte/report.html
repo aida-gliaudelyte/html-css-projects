@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>..Story Behind..</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="print.css" rel="stylesheet" type="text/css" media="print">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <header class="logo">
+            <h1>..Story Behind..</h1>
+        </header>
+        <a href="sign_in.html" class="account" id="sign_in"><i class="fa fa-user"></i> Sign In</a>
+        <a href="register.html" class="account" id="registration"><i class="fa fa-edit"></i> Register</a>
+        <a href="#" id="cart-top" class="account"><i class="fa fa-shopping-cart"></i></a>
+        <div class="bodyContent">
+            <div class="menu" id="menuLinks">
+                <a href="javascript:void(0);" class="bar" onclick="openMenu()">
+                    <i class="fa fa-bars"></i></a>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="index.html" class="current">Report</a>            
+            </div>
+            <div class="content"><br>
+                <h1 class="title">Report</h1>
+                <h4>Website Design</h4>
+                <p>I have designed my website using light colours for better contrast. Red and green colours were avoided in the main design as they are hard to distinguish
+				between for colour blind people. Light and dark shades of blue for navigation were used to improve website usability for dyslexic people. While for partially
+				sighted people, the main content was displayed in the black coloured font on a white shaded background. I chose to use the repeating image of books behind the
+				content area to establish a book theme on my online bookstore website.  Suitable size for the font was used to accommodate all users. The font family used was
+				Arial from Sans serif group as it is one of the recommended styles to use for increased usability and accessibility. No italicised or underlined text, apart
+				from the page name, was used. Enough spacing between paragraphs was provided and alignment to the left was used in order to make it more reader friendly.</p>
+				<p>Throughout all pages the header, footer and navigation are consistent. The header includes the logo image and store name. The little Register and Sign in
+				icons are in the top right corner on the logo picture as well. The navigation menu is composed of three main sections: Home, Products and Report. On the right
+				side of the menu, little cart icon is displayed for future item storage. When using a smaller device menu appears as a bar icon with dropdown options. The 
+				footer appears at the end of all content. I used 4 columns for footer’s content display. In the first column, I put the shop opening times. In the second I 
+				have 4 links of which only Contact Us is a link with actual redirection that leads to the simple form for submitting a message. In the third column, I have 
+				three icons for supposed social media accounts related to the store. The forth column holds the W3C validation image for CSS and copyright statement.</p>
+				<p>In my Home page, I incorporated slideshow as I believe it went well with the overall design. It changes slides automatically and as well allows the user
+				to choose any image for preview by simply clicking on picture thumbnail or dots for smaller devices. The slideshow images would work as links to the related
+				section of a website in the future however, now it leads nowhere. The layout of two different sized columns was provided, consisting of introduction
+				<a class="numbers" href="#section1">[1]</a> with images, as well as image of a map and the future event list. In the smaller device columns are displayed
+				one under the other rather than side by side.</p>
+				<p>In my Products page, new sub-menu appears for choosing book genre. The books are displayed in the layout consisting of three columns. Each book has equal 
+				space provided to display image, name, author and price (the latter three are parsed from xml file). At the bottom of each area designated for the book is a simple
+				form for choosing book quantity and submitting it to the cart in the future. The products are displayed throughout 5 pages consisting of the same three column layout.
+				Users can navigate between pages using page buttons at the bottom of the page. The current page number is displayed in a bit bigger font and is surrounded by a thicker
+				border. Using smaller screen device columns drops and stays one under the other.</p>
+				<p>Report page only consists of the design and functionality justification report, with basic layout.</p>
+				<p>Register link at the top of the page redirects to the registration form. The form is displayed in two column layout. It has few form elements required to fill in for
+				successful registration and few optional. I used different types of input to make the form more interesting. The user must use text, date, radio, select and checkbox
+				inputs to complete the form and submit using submit button.</p>
+				<p>Sign In page redirects to the page that has form in the middle of the page asking for email and password.</p>
+				<p>The website was designed to fit mobile device first and then was resized to fit bigger screens as well granting it would help with website optimization on smaller devices.
+				The website is fully responsive, with required adjustments made to fit different sized screens and display content in a pleasing manner. The slideshow dots, displayed on 
+				smaller devices for changing slides, are replaced by picture thumbnails on wider screens same as a bar icon with dropdown options for navigation on smaller devices changes to
+				the navigation options displayed in a block on bigger devices. All column layouts are placed underneath each other until the screen gets bigger and can accommodate side by side
+				display. Most of the stylesheet properties were given % values to provide responsiveness in images, text, etc. An additional print-friendly stylesheet is provided for users to
+				have the opportunity to print most important information without wasting page space with unnecessary displays, like a menu,	logo picture, footer etc.</p>
+                <h4>Website functionality</h4>
+                <h5>Slideshow</h5>
+				<p>The slideshow was created using JavaScript. Slides change automatically by changing the image source name depending on the index. As well slideshow can be previewed manually
+				by choosing thumbnails underneath the slideshow to jump to the chosen slide. This was done by using the onClick command and passing the number of a chosen slide. In this way,
+				the automatic slideshow is interrupted and the required slide is displayed instead. Once that is done and the user chooses not to interact with slideshow anymore, the automatic
+				slideshow starts again picking up from the last slide previewed.</p>
+                <h5>XML</h5>
+				<p>I parsed XML document information using JavaScript. I created my own book display boxes with images and gave each box attributes for the title, author and price with specific
+				ids in html document. That allowed me to parse XML information by using getElementById method and placing correct information in dedicated place.</p>
+                <h5>Form validation</h5>
+				<p>Form validation was done using JavaScript as well. Before attempting to submit the form all required fields must be filled and notification will pop up to remind it. On
+				submission, the validation for form elements is started. Name, Surname and City use the same form validation pattern<a class="numbers" href="#section2">[2]</a>, making sure
+				that input provided contains only letters. Mail is validated in the way, that makes sure that input from the user follows the correct email pattern<a class="numbers" href="#section3">[3]</a>.
+				First password input looks for valid password attempt, which has to include at least one capital letter, one lower case letter, one number and be at least 8 characters 
+				long<a class="numbers" href="#section4">[4]</a>. Repeat password input only checks if it matches the first password input. The last validation is meant for mobile phone.
+				The pattern makes sure the input from the user is 12 digits long. When failing to comply with given patterns user is provided with alert messages pointing exactly where the problems
+				are and is given an opportunity to fix them. Information is submitted using post method to protect acquired user data.</p>
+                <h5>Navigation</h5>
+				<p>JavaScript helped me to achieve responsiveness on the menu. By making minor changes in class names I was able to change how the menu is displayed depending on device screen size.
+				Every time the device screen increases in width, a menu bar with drop-down options disappear and instead options appear in a block.</p>
+                <h5>References:</h5>
+                <p id="section1"><a class="ref" href="https://fiveleavesbookshop.co.uk/about/">[1] Text for home page introduction</a></p>
+                <p id="section2"><a class="ref" href="https://stackoverflow.com/questions/9289451/regular-expression-for-alphabets-with-spaces">[2] Letter validation pattern</a></p>
+                <p id="section3"><a class="ref" href="https://www.w3resource.com/javascript/form/email-validation.php">[3] Email validation pattern</a></p>
+                <p id="section4"><a class="ref" href="https://www.the-art-of-web.com/javascript/validate-password/">[4] Password validation pattern</a></p>
+				<p id="section5"><a class="ref" href="https://www.w3schools.com/howto/howto_js_slideshow.asp">Site used for slideshow display 1</a>
+				<p id="section5"><a class="ref" href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto">Site used for slideshow display 2</a></p>
+				<p id="section5"><a class="ref" href="https://www.w3schools.com/w3css/w3css_slideshow.asp">Site used for slideshow display 3</a></p>
+				<p id="section6"><a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">Navigation menu</a></p><br><br><br>
+			</div>
+			<div id="footer">
+				<div class="footer-row"><br>
+					<div class="footer-col">
+						Shop opening times:<br>
+						Monday – Friday  9.00am – 6.00pm<br>
+						Saturday 10.00am-5.30pm<br>
+						Sundays 11.00 – 4.00pm<br><br>
+					</div>
+					<div class="footer-col">
+						<a href="#">About Us</a><br>
+						<a href="contact_us.html">Contact Us</a><br>
+						<a href="#">Delivery</a><br>
+						<a href="#">FAQ</a><br><br>
+					</div>
+					<div class="footer-col">
+						Follow us:<br><br>
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-instagram"></a>
+					</div>
+					<div class="footer-col">
+						<p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a></p>
+						<small>&copy; Copyright 2020, Story Behind<br>Designed by: Aida Gliaudelyte (N0813320)</small>
+					</div>
+				</div>
+		</div>
+    </body>
+</html>
