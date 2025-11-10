@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>..Story Behind..</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="print.css" rel="stylesheet" type="text/css" media="print">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <header class="logo">
+            <h1>..Story Behind..</h1>
+        </header>
+        <a href="sign_in.html" class="account" id="sign_in"><i class="fa fa-user"></i> Sign In</a>
+        <a href="register.html" class="account" id="registration"><i class="fa fa-edit"></i> Register</a>
+        <a href="#" id="cart-top" class="account"><i class="fa fa-shopping-cart"></i></a>
+        <div class="bodyContent">
+            <div class="menu" id="menuLinks">
+                <a href="javascript:void(0);" class="bar" onclick="openMenu()">
+                    <i class="fa fa-bars"></i></a>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="report.html">Report</a>            
+            </div>
+            <div class="content">
+                <h1 class="title">Sign In Details</h1><br><br>
+                <div id="sign_in_details">
+					<form method="post" id="logForm" name="logForm" onSubmit="return logFormValidation()">
+						<label for="Email">E-mail:</label><br>
+						<input type="email" id="sEmail" name="Email" required placeholder="Enter email"/><br><br>
+						<label for="Password">Password:</label><br>
+						<input type="password" id="sPassword" name="Password" placeholder="Enter password" required /><br><br><br>         
+						<input type="submit" name="Sign-in" value="Sign-in"/><br><br>                
+					</form>
+				</div>	
+                <br><br><br>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-row"><br>
+                <div class="footer-col">
+                    Shop opening times:<br>
+                    Monday – Friday  9.00am – 6.00pm<br>
+                    Saturday 10.00am-5.30pm<br>
+                    Sundays 11.00 – 4.00pm<br><br>
+                </div>
+                <div class="footer-col">
+                    <a href="#">About Us</a><br>
+                    <a href="contact_us.html">Contact Us</a><br>
+                    <a href="#">Delivery</a><br>
+                    <a href="#">FAQ</a><br><br>
+                </div>
+                <div class="footer-col">
+                    Follow us:<br><br>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="footer-col">
+                    <p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a></p>
+                    <small>&copy; Copyright 2020, Story Behind<br>Designed by: Aida Gliaudelyte (N0813320)</small>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
