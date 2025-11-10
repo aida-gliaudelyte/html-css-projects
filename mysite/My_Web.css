@@ -1,0 +1,193 @@
+body{
+	background-color: black;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* To create Hero page code was taken from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image*/
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ntu2.jpg");
+    height: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: floralwhite;
+}
+/*MAKE SIDE MENU
+CSS for side menu atributes used to make menu open from the side for design purposes. The code structure was taken from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav */
+.sidenav {
+    height: 100%;/*lenght to all page*/
+    width: 0;/*no width, because it pops up*/
+    position: fixed;
+    z-index: 1;/*gets in front of the element with lower index*/
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-image: url(8.png);
+    overflow-x: hidden;/*to hide text untill pressed*/
+    transition: 1s;
+    padding-top: 60px;/*make some space from the top in the menu bar*/
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;/*space between text lines and borders in menu*/
+    text-decoration: none;
+    font-size: 30px;
+    color: floralwhite;
+    display: block;/*seperates text to different lines*/
+    font-weight: bold;
+    font-family: garamond;
+    transition: 0.3s;
+}
+.dropdown-btn{
+    padding: 8px 8px 8px 32px;/*space between text lines and borders in menu*/
+    text-decoration: none;
+    font-size: 30px;
+    font-family: garamond;
+    color: floralwhite;
+    display: block;/*seperates text to different lines*/
+    border: none;
+    background: none;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+}
+.sidenav a:hover, .dropdown-btn:hover{
+    color: palevioletred;
+    /*when you go on the text in the menu it changes color*/
+}
+.active {
+    color: palevioletred;
+}
+.dropdown-container {
+    padding: 8px 8px 8px 32px;
+    display: none;/*hides dropdown menu*/
+    padding-left: 40px; 
+    position:relative;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 55px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 36px;
+    margin-left: auto;
+}
+/*ADJUST PREVIEW FOR OTHER DEVICES*/
+@media screen and (max-width: 500px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .image1 {width: 100%;}
+    .image2 {width: 100%;}
+    body .column {width: 100%;}
+    .dropdown-btn {font-size: 18px;}
+    .fa-caret-down {font-size: 18px;}
+}
+.image1 {
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+	border-radius: 50%;
+	padding:1px;
+    border:15px double black;
+    background-color:floralwhite;
+	}
+.image2{
+    border:15px double black;
+    padding: 1px;
+    background-color:floralwhite;
+    width: 95%;
+    margin: 10px;
+}
+h1{
+    color: floralwhite;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+h2{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+p{
+    color:floralwhite;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+td, th {
+    border: solid 2px palevioletred;
+    text-align: justify;
+    padding-left: 2px;
+} 
+iframe{
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    max-width: 100%;
+    max-height: auto;
+}
+a:link{
+    color: floralwhite;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: floralwhite;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: palevioletred;
+    background-color: transparent;
+    text-decoration: none;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    /*padding: 5px;*/
+}
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+table{
+    color: floralwhite;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    border:6px solid black;
+    border-color: floralwhite;
+}

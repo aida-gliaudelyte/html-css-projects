@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="My_Web.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1 style="font-size: 60px;">Nottingham Trent University</h1>
+                <p>Continuing Personal Development</p>
+            </div>
+        </div> 
+        <!-- Side menu atributes and JavaScript used to make menu open from the side for design purposes. The code structure was taken from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+            <a href="Home.html">
+                Home
+            </a>
+            <button class="dropdown-btn">
+                Activities
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="Bouldering.html">
+                    Bouldering
+                </a>
+                <a href="VegSoc.html">
+                    Veg Society
+                </a>
+                <a href="Part-time.html">
+                    Part-time job
+                </a>
+                <a href="DevSoc.html">
+                    DevSoc
+                </a>
+                <a href="Acceler8.html">
+                    Acceler8
+                </a>
+                <a href="Others.html">
+                    Other events
+                </a>     
+            </div>
+            <a href="Hours.html">
+                Hour distribution
+            </a>
+            <a href="References.html">
+                References
+            </a>
+            <a href="About.html">
+                About me
+            </a>
+        </div>
+        <span style="font-size:30px;color:floralwhite;cursor:pointer" onclick="openNav()">&#9776</span>
+        <a href="Home.html"><i class="fa fa-home fa-fw" style="color: floralwhite;font-size: 30px; cursor: pointer"></i></a>
+	<a href="Acceler8.html" title="Acceler8"><i class="fa fa-arrow-circle-left" style="color: floralwhite; font-size: 30px; cursor: pointer"></i></a>
+	<a href="Bouldering.html" title="Bouldering"><i class="fa fa-arrow-circle-right" style="color: floralwhite; font-size: 30px; cursor: pointer"></i></a>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                        dropdownContent.style.display = "none";
+                    }
+                    else {
+                        dropdownContent.style.display = "block";
+                    }
+                });
+            }
+        </script>
+        
+        <h1 style="font-size: 45px">Other events </h1>
+        <img src="17.jpg" title="See references page-14" alt="Other" class="image1">
+        <h2>Skills i acquired:</h2>
+        <p>Time-management, More knowledge, Networking</p>
+        <div class="row">
+            <div class="column">
+                <img src="6.jpg" alt="Time-management" style="width: 90%" class="image2">
+            </div>
+            <div class="column">
+                <img src="21.png" alt="Refinitiv" style="width: 90%" class="image2">
+            </div>
+            <div class="column">
+                <img src="24.png" alt="Encryption event ticket" style="width: 90%" class="image2">
+            </div>
+        </div>
+        <table cellpadding="10" align="center" style="width:90%">
+            <col style="width:50%">
+            <col style="width:50%">
+            <thead>
+                <tr>
+                    <th>
+                        What is it?
+                    </th>
+                    <th>
+                        What i learned and my opinion
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li title="See references page-15">
+                                Library provides a wide range of sessions for students and staff, covering many different topics including referencing, subject resources, academic writing and maths, copyright and plagiarism. Students can book themselves into different training events or workshops to improve their skills.
+                            </li>
+                            <li title="See references page-16">
+                                Digital Horizons offer a range of activities to help explore the tech industry, and what students might do with their degree.
+                            </li>
+                            <li>
+                                Cyber security awarness week in NTU offers variety of different seminars to understand threats on the internet and secure your files.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                I attended an effective time management session organized by the library. I gained a deeper understanding of how to achieve better results while having a lot of tasks and stop procrastinating.
+                            </li>
+                            <li>
+                                During digital horizons, I had a chance to listen to cybersecurity related seminar, hear about placement opportunities in different companies and even visit one. I learned a bit more about how companies work in the UK and what they expect from the applicants.
+                            </li>
+                            <li>
+                                I attended NTU computer and technology center organized event "Quick guide to encryption". It was really interesting and i learned what software to use for file encryption. I believe this information come in handy in the future.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="My_Web.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1 style="font-size: 60px;">Nottingham Trent University</h1>
+                <p>Continuing Personal Development</p>
+            </div>
+        </div>
+        <!-- Side menu atributes and JavaScript used to make menu open from the side for design purposes. The code structure was taken from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+            <a href="Home.html">
+                Home
+            </a>
+            <button class="dropdown-btn">
+                Activities
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="Bouldering.html">
+                    Bouldering
+                </a>
+                <a href="VegSoc.html">
+                    Veg Society
+                </a>
+                <a href="Part-time.html">
+                    Part-time job
+                </a>
+                <a href="DevSoc.html">
+                    DevSoc
+                </a>
+                <a href="Acceler8.html">
+                    Acceler8
+                </a>
+                <a href="Others.html">
+                    Other events
+                </a>     
+            </div>
+            <a href="Hours.html">
+                Hour distribution
+            </a>
+            <a href="References.html">
+                References
+            </a>
+            <a href="About.html">
+                About me
+            </a>
+        </div>
+        <span style="font-size:30px;color:floralwhite;cursor:pointer" onclick="openNav()">&#9776</span>
+        <a href="Home.html"><i class="fa fa-home fa-fw" style="color: floralwhite;font-size: 30px; cursor: pointer"></i></a>
+	<a href="VegSoc.html" title="Veg Society"><i class="fa fa-arrow-circle-left" style="color: floralwhite; font-size: 30px; cursor: pointer"></i></a>
+	<a href="DevSoc.html" title="DevSoc"><i class="fa fa-arrow-circle-right" style="color: floralwhite; font-size: 30px; cursor: pointer"></i></a>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                        dropdownContent.style.display = "none";
+                    }
+                    else {
+                        dropdownContent.style.display = "block";
+                    }
+                });
+            }
+        </script>
+        
+        <h1 style="font-size: 45px">Part-time job </h1>
+        <img src="1.png" title="See references page-7" alt="Caffe Nero Logo" class="image1">
+        <h2>Skills i acquired:</h2>
+        <p>Team-working, Leadership, Confidence</p> 
+        
+        <div class="row">
+            <div class="column">
+                <img src="13.jpg" title="See references page-8" alt="Part-time job" class="image2">
+            </div>
+            <div class="column">
+                <img src="2.png" alt="Part-time job" class="image2">
+            </div>
+            <div class="column">
+                <img src="4.jpg" alt="Part-time job" class="image2">
+            </div>
+        </div>
+        
+        <table cellpadding="10" align="center" style="width:90%" >
+            <col style="width:50%">
+            <col style="width:50%">
+            <thead>
+                <tr>
+                    <th>What is it?</th>
+                    <th>What i learned and my opinion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td title="See references page-9">
+                        Caffe Nero story goes back around 20 years, to its founder Gerry Ford who had the vision to create traditional Italian cafés across Europe; places that served very high-quality coffee and acted as a meeting spot for the neighbourhood. Making great coffee takes some doing. So, Caffe Nero built their own Roastery and created a unique award-winning coffee blend. This has led to opening more than 800 coffee houses across Europe, recognised for serving ‘the best espresso this side of Milan’.
+                    </td>
+                    <td>
+                        I started in Caffe Nero in October 2017. I learnt a lot from the company. Expanded my knowledge on coffee journey from the beginning of bean growing to the perfect cup of espresso served to the customer. Working here gave me opportunity to improve my skills in team-working as well taught me how to take up leadership role and helped me to build up my confidence. The company gives support, helps improve organisational and time-management skills. It's a wonderful place to work as you always surrounded by amazing people and fresh coffee smell.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
